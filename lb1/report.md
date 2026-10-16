@@ -25,7 +25,7 @@ Login -> Products -> Add to cart -> Cart -> Checkout -> First Name, Last Name, Z
 | 1 | performance_glitch_user | Затримка відкриття Products після логіну               | Medium   | Medium   | Issue #1 |
 | 2 | problem_user            | Однакове зображення для всіх товарів                   | High     | High     | Issue #2 |
 | 3 | problem_user            | Не працює сортування за ціною                          | Medium   | Medium   | Issue #3 |
-| 3 | problem_user            | Помилка в полі Last Name, неможливо оформити замовлення| High     | High     | Issue #4 |
+| 4 | problem_user            | Помилка в полі Last Name, неможливо оформити замовлення| High     | High     | Issue #4 |
 
 ## Висновок
-В ході роботи визначено еталонну поведінку на standard_user та виявлено 3 аномалії при порівнянні з іншими користувачами. Аномалії задокументовано в 【entity-GitHub¦canonical_name=GitHub】 Issues за правилом Що? Де? Коли? з вказанням Environment, Steps, Expected/Actual Result та Severity/Priority.
+В ході роботи визначено еталонну поведінку на standard_user та problem_user виявлено 4 аномалії при порівнянні з іншими користувачами. Аномалії задокументовано за правилом Що? Де? Коли?
